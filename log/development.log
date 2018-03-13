@@ -1,0 +1,159 @@
+Started GET "/" for 127.0.0.1 at 2018-03-12 21:27:48 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 11864ms (Views: 10678.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-12 21:29:50 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 851ms (Views: 735.1ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2018-03-12 21:30:21 +0200
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 776ms (Views: 660.1ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-03-12 21:30:24 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 590ms (Views: 481.0ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2018-03-12 21:31:24 +0200
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 760ms (Views: 632.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-13 14:42:55 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (20.0ms)
+Completed 200 OK in 2858ms (Views: 1714.7ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2018-03-13 14:43:29 +0200
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 747ms (Views: 611.5ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-03-13 14:43:31 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 700ms (Views: 580.8ms)
+
+
+Started GET "/pages/about" for 127.0.0.1 at 2018-03-13 14:43:35 +0200
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 799ms (Views: 671.5ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-03-13 14:43:36 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 761ms (Views: 626.0ms)
+
+
+Started GET "/pages/home" for 127.0.0.1 at 2018-03-13 16:08:24 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/pages/home"):
+  
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.4) lib/rack/method_override.rb:22:in `call'
+rack (2.0.4) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.4) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.11.3) lib/puma/configuration.rb:225:in `call'
+puma (3.11.3) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.3) lib/puma/server.rb:438:in `process_client'
+puma (3.11.3) lib/puma/server.rb:302:in `block in run'
+puma (3.11.3) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-03-13 16:08:37 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (902.8ms)
+Completed 500 Internal Server Error in 1456ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `pages_about_path' for #<#<Class:0xb2aa438>:0xb28fb40>):
+    1: <h1>Home page</h1>
+    2: <p>Very large and important text...</p>
+    3: <hr>
+    4: <%= link_to "About", pages_about_path %>
+  
+app/views/pages/home.html.erb:4:in `_app_views_pages_home_html_erb___53108853_93673716'
+Started GET "/" for 127.0.0.1 at 2018-03-13 16:09:18 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3704.6ms)
+Completed 500 Internal Server Error in 9278ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `pages_about_path' for #<#<Class:0xb2aa438>:0xbc6c538>):
+    1: <h1>Home page</h1>
+    2: <p>Very large and important text...</p>
+    3: <hr>
+    4: <%= link_to "About", pages_about_path %>
+  
+app/views/pages/home.html.erb:4:in `_app_views_pages_home_html_erb___53108853_98788740'
+Started GET "/" for 127.0.0.1 at 2018-03-13 16:09:55 +0200
+Processing by PagesController#home as HTML
+Started GET "/" for 127.0.0.1 at 2018-03-13 16:09:59 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12759ms (Views: 10500.3ms)
+
+
+Completed 200 OK in 7892ms (Views: 7589.4ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-03-13 16:10:21 +0200
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 699ms (Views: 589.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-13 16:15:44 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 772ms (Views: 643.6ms)
+
+
