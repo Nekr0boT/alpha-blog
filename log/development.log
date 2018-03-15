@@ -157,3 +157,73 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 772ms (Views: 643.6ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-03-15 18:30:46 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (61.8ms)
+Completed 200 OK in 9750ms (Views: 7607.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-15 18:31:23 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 793ms (Views: 663.7ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-03-15 18:39:32 +0200
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.0ms)
+Started GET "/about" for 127.0.0.1 at 2018-03-15 18:39:32 +0200
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1406ms (Views: 1292.4ms)
+
+
+Completed 200 OK in 781ms (Views: 658.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-15 18:39:34 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 718ms (Views: 580.3ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-03-15 18:39:36 +0200
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 728ms (Views: 614.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-15 18:39:47 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1072ms (Views: 903.4ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-03-15 18:40:00 +0200
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 613ms (Views: 501.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-15 19:42:03 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 629ms (Views: 516.2ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-03-15 20:10:25 +0200
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 847ms (Views: 625.2ms)
+
+
