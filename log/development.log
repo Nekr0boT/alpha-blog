@@ -344,3 +344,55 @@ Migrating to AddDescrToArticles (20180317184937)
   [1m[35m (116.3ms)[0m  [1m[36mcommit transaction[0m
   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
   [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mArticle Load (10.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO "articles" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "This is my first article"], ["description", "This is the description"], ["created_at", "2018-03-19 18:16:55.207678"], ["updated_at", "2018-03-19 18:16:55.207678"]]
+  [1m[35m (103.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mArticle Load (0.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (3.0ms)[0m  [1m[32mINSERT INTO "articles" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "This is my second article"], ["description", "This is my second description"], ["created_at", "2018-03-19 18:17:53.986367"], ["updated_at", "2018-03-19 18:17:53.986367"]]
+  [1m[35m (107.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (21.0ms)[0m  [1m[32mINSERT INTO "articles" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "This is my third article"], ["description", "My third article's description"], ["created_at", "2018-03-19 18:18:44.587553"], ["updated_at", "2018-03-19 18:18:44.587553"]]
+  [1m[35m (133.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mArticle Load (0.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (57.0ms)[0m  [1m[33mUPDATE "articles" SET "id" = ?, "updated_at" = ? WHERE "articles"."id" = ?[0m  [["id", 3], ["updated_at", "2018-03-19 18:20:07.392880"], ["id", 12]]
+  [1m[35m (74.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mArticle Load (0.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  [1m[33mUPDATE "articles" SET "id" = ?, "updated_at" = ? WHERE "articles"."id" = ?[0m  [["id", 2], ["updated_at", "2018-03-19 18:20:46.540681"], ["id", 11]]
+  [1m[35m (105.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mArticle Load (0.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.5ms)[0m  [1m[33mUPDATE "articles" SET "id" = ?, "updated_at" = ? WHERE "articles"."id" = ?[0m  [["id", 1], ["updated_at", "2018-03-19 18:21:00.261290"], ["id", 10]]
+  [1m[35m (122.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mArticle Load (0.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mArticle Load (1.1ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.9ms)[0m  [1m[33mUPDATE "articles" SET "title" = ?, "updated_at" = ? WHERE "articles"."id" = ?[0m  [["title", "This is an edited article title"], ["updated_at", "2018-03-19 18:22:53.231667"], ["id", 2]]
+  [1m[35m (102.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mArticle Load (9.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.4ms)[0m  [1m[32mINSERT INTO "articles" ("id", "title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 6], ["title", "a"], ["description", "b"], ["created_at", "2018-03-19 18:44:47.538409"], ["updated_at", "2018-03-19 18:44:47.538409"]]
+  [1m[35m (99.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (5.3ms)[0m  [1m[32mINSERT INTO "articles" ("id", "title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 7], ["title", "This is a new article"], ["description", "This is description for new article"], ["created_at", "2018-03-19 18:45:31.557961"], ["updated_at", "2018-03-19 18:45:31.557961"]]
+  [1m[35m (104.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (5.1ms)[0m  [1m[32mINSERT INTO "articles" ("id", "title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 8], ["title", "Testing article"], ["description", "Hello testing article"], ["created_at", "2018-03-19 18:46:10.387474"], ["updated_at", "2018-03-19 18:46:10.387474"]]
+  [1m[35m (139.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.5ms)[0m  [1m[32mINSERT INTO "articles" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2018-03-19 18:58:08.742909"], ["updated_at", "2018-03-19 18:58:08.742909"]]
+  [1m[35m (105.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 13]]
+  [1m[35m (113.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO "articles" ("id", "title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["id", 9], ["title", "Testing again"], ["description", "Hello testing show"], ["created_at", "2018-03-19 18:59:20.545124"], ["updated_at", "2018-03-19 18:59:20.545124"]]
+  [1m[35m (82.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mArticle Load (0.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" LIMIT ?[0m  [["LIMIT", 11]]
