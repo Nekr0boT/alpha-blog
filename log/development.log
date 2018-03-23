@@ -2446,3 +2446,1239 @@ Migrating to AddDescriptionToArticles (20180320171521)
   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
   [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
   [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2018-03-22 20:53:36 +0200
+Started GET "/" for 127.0.0.1 at 2018-03-22 20:53:39 +0200
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (58.1ms)
+  Rendered pages/home.html.erb within layouts/application (54.6ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 74622ms (Views: 74330.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_messages.html.erb (0.0ms)
+Completed 200 OK in 128521ms (Views: 128383.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 20:56:18 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1128ms (Views: 1001.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-03-22 20:56:22 +0200
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+Completed 200 OK in 1096ms (Views: 991.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-03-22 21:02:39 +0200
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1212ms (Views: 1091.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:02:43 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1242ms (Views: 1137.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:06:22 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1105ms (Views: 982.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:08:10 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1462ms (Views: 1351.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:09:40 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1188ms (Views: 1057.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:10:14 +0200
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.0ms)
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:10:18 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 4190ms (Views: 4051.2ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+Completed 200 OK in 29908ms (Views: 29784.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:11:55 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1101ms (Views: 977.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:12:09 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1221ms (Views: 1075.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:13:20 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 25487ms (Views: 25367.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:13:55 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1358ms (Views: 1243.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:14:00 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1364ms (Views: 1239.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:14:01 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1406ms (Views: 1279.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:14:08 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1274ms (Views: 1163.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:14:11 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1282ms (Views: 1090.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-03-22 21:14:20 +0200
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1203ms (Views: 1094.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-22 21:14:22 +0200
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.9ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1248ms (Views: 1098.4ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2018-03-22 21:14:26 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (238.6ms)
+  Rendered articles/new.html.erb within layouts/application (351.6ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1569ms (Views: 1440.8ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2018-03-22 21:14:34 +0200
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tc0pGdfvGeVbPANgFbIyjUAjmVkkPUZI0SXj+zmMrD7zaJJ1U6lLUs73QLAR0rId1dWEwDaLAiJi42Ke3ayfAg==", "article"=>{"title"=>"This is a title", "description"=>"qwqeqweqweqw"}, "commit"=>"Create Article"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "articles" WHERE "articles"."title" = ? LIMIT ?[0m  [["title", "This is a title"], ["LIMIT", 1]]
+  [1m[35mSQL (22.0ms)[0m  [1m[32mINSERT INTO "articles" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "This is a title"], ["description", "qwqeqweqweqw"], ["created_at", "2018-03-22 19:14:34.367098"], ["updated_at", "2018-03-22 19:14:34.367098"]]
+  [1m[35m (91.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/articles/1
+Completed 302 Found in 164ms (ActiveRecord: 114.6ms)
+
+
+Started GET "/articles/1" for 127.0.0.1 at 2018-03-22 21:14:34 +0200
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1245ms (Views: 1083.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-22 21:14:38 +0200
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1193ms (Views: 1081.7ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/articles/1" for 127.0.0.1 at 2018-03-22 21:14:43 +0200
+Processing by ArticlesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"yTsKzB3ilO646DwOUVYfbkWNWnjVIl7t4c/fA48rKYSoiXY9x/kTmyaPqSmfxMTje6a3Wt7V4Rt1RcGn16jeww==", "id"=>"1"}
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  [1m[31mDELETE FROM "articles" WHERE "articles"."id" = ?[0m  [["id", 1]]
+  [1m[35m (81.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/articles
+Completed 302 Found in 97ms (ActiveRecord: 84.1ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-22 21:14:44 +0200
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_navigation.html.erb (0.0ms)
+  Rendered layouts/_messages.html.erb (0.9ms)
+Completed 200 OK in 1185ms (Views: 1063.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-22 21:14:48 +0200
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Started GET "/articles" for 127.0.0.1 at 2018-03-22 21:14:49 +0200
+Completed 200 OK in 1380ms (Views: 1251.9ms | ActiveRecord: 1.0ms)
+
+
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1373ms (Views: 1221.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:14:53 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1406ms (Views: 1210.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:16:05 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1198ms (Views: 1075.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:26:33 +0200
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 5461ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Current ExecJS runtime does't support ES5. Please install node.js.):
+    4:     <title>AlphaBlog</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__320709414_61644828'
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:28:50 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 2530ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Current ExecJS runtime does't support ES5. Please install node.js.):
+    4:     <title>AlphaBlog</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__320709414_92704128'
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:33:14 +0200
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 2967ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Current ExecJS runtime does't support ES5. Please install node.js.):
+    4:     <title>AlphaBlog</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__277679052_46822332'
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:43:08 +0200
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (8.0ms)
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:43:11 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 12903ms (Views: 12776.6ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 43662ms (Views: 43522.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:46:44 +0200
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (21.0ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 12348ms (Views: 12209.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:47:27 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1293ms (Views: 1128.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-22 21:54:01 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (6.0ms)
+  Rendered layouts/_messages.html.erb (2.5ms)
+Completed 200 OK in 49472ms (Views: 49344.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 20:39:49 +0200
+Started GET "/" for 127.0.0.1 at 2018-03-23 20:39:51 +0200
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (4.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (15.4ms)
+  Rendered pages/home.html.erb within layouts/application (12.4ms)
+Completed 500 Internal Server Error in 8920ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+    4:     <title>AlphaBlog</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___251613101_61173120'
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 9898ms (Views: 9624.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 20:47:01 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1847ms (Views: 1684.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 20:47:15 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1466ms (Views: 1330.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 20:47:20 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1397ms (Views: 1240.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-03-23 20:49:38 +0200
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1950ms (Views: 1773.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-23 20:49:43 +0200
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (14.5ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1723ms (Views: 1574.6ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-23 20:50:25 +0200
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+Completed 200 OK in 44990ms (Views: 44866.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 20:52:46 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 30861ms (Views: 30729.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 20:53:36 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 5906ms (Views: 5789.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 20:54:06 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1348ms (Views: 1222.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 20:54:20 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1393ms (Views: 1280.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 20:54:23 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.5ms)
+Completed 200 OK in 1747ms (Views: 1585.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 20:55:24 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (0.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1288ms (Views: 1147.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 20:56:20 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1278ms (Views: 1143.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 20:56:32 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 744ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Invalid CSS after "": expected selector or at-rule, was "/*$navbar-defau..."):
+    4:     <title>AlphaBlog</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' =>
+    8:     true %>
+    9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+   10:   </head>
+  
+app/assets/stylesheets/application.scss:1
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___251613101_125965500'
+Started GET "/" for 127.0.0.1 at 2018-03-23 20:57:30 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1428ms (Views: 1289.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:03:17 +0200
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (7.0ms)
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:03:21 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 48049ms (Views: 47914.7ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_navigation.html.erb (1.0ms)
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:06:07 +0200
+  Rendered layouts/_messages.html.erb (1.5ms)
+Completed 200 OK in 166475ms (Views: 166307.3ms | ActiveRecord: 0.0ms)
+
+
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1150ms (Views: 1033.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:07:32 +0200
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (9.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 3063ms (Views: 2915.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:09:29 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 28291ms (Views: 28120.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:12:29 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1329ms (Views: 1192.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:23:28 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 14232ms (Views: 14097.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:24:40 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:24:46 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.5ms)
+Completed 200 OK in 21057ms (Views: 20926.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 20036ms (Views: 19868.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:26:11 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1227ms (Views: 1091.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:27:17 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1154ms (Views: 1033.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:28:06 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 14165ms (Views: 14044.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:34:52 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1433ms (Views: 1283.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:35:04 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1118ms (Views: 994.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-03-23 21:35:07 +0200
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1175ms (Views: 1063.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:35:09 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+Completed 200 OK in 1440ms (Views: 1308.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:35:57 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+Completed 200 OK in 1312ms (Views: 1163.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2018-03-23 21:36:04 +0200
+Processing by PagesController#about as HTML
+  Rendering pages/about.html.erb within layouts/application
+  Rendered pages/about.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1132ms (Views: 1011.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-23 21:36:07 +0200
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (26.5ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1102ms (Views: 972.9ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2018-03-23 21:36:24 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (210.3ms)
+  Rendered articles/new.html.erb within layouts/application (320.5ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1383ms (Views: 1256.8ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2018-03-23 21:36:55 +0200
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"q+x0/rrcYy93d8i5eMhDViHPgrlPsqS31ykQoLKEd0wforvwfDQRJDUMZdyC9jRnmRBgcjV9n65731u/bNHREA==", "article"=>{"title"=>"This is my first article ", "description"=>"This is a description"}, "commit"=>"Create Article"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "articles" WHERE "articles"."title" = ? LIMIT ?[0m  [["title", "This is my first article "], ["LIMIT", 1]]
+  [1m[35mSQL (3.0ms)[0m  [1m[32mINSERT INTO "articles" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "This is my first article "], ["description", "This is a description"], ["created_at", "2018-03-23 19:36:55.496557"], ["updated_at", "2018-03-23 19:36:55.496557"]]
+  [1m[35m (78.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/articles/2
+Completed 302 Found in 128ms (ActiveRecord: 82.7ms)
+
+
+Started GET "/articles/2" for 127.0.0.1 at 2018-03-23 21:36:55 +0200
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1173ms (Views: 1002.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-23 21:37:01 +0200
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1026ms (Views: 917.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2018-03-23 21:37:04 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (5.0ms)
+  Rendered articles/new.html.erb within layouts/application (114.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1172ms (Views: 1060.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2018-03-23 21:37:48 +0200
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qj39tGX8COw742PkP2/A8JtILdWOYSU1iy5uYGedquoeczK6oxR653mYzoHFUbfBI5fPHvSuHiwn2CV/ucgMtg==", "article"=>{"title"=>"This is an edited article ", "description"=>"This is my second description"}, "commit"=>"Create Article"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "articles" WHERE "articles"."title" = ? LIMIT ?[0m  [["title", "This is an edited article "], ["LIMIT", 1]]
+  [1m[35mSQL (3.0ms)[0m  [1m[32mINSERT INTO "articles" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "This is an edited article "], ["description", "This is my second description"], ["created_at", "2018-03-23 19:37:48.578383"], ["updated_at", "2018-03-23 19:37:48.578383"]]
+  [1m[35m (123.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/articles/3
+Completed 302 Found in 149ms (ActiveRecord: 127.9ms)
+
+
+Started GET "/articles/3" for 127.0.0.1 at 2018-03-23 21:37:48 +0200
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mArticle Load (0.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+Completed 200 OK in 1166ms (Views: 1038.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-23 21:37:53 +0200
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (7.0ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1047ms (Views: 936.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2018-03-23 21:37:55 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (7.0ms)
+  Rendered articles/new.html.erb within layouts/application (136.6ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.3ms)
+Completed 200 OK in 1260ms (Views: 1140.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2018-03-23 21:38:40 +0200
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rcax2Ek8jQkz0GPwaboAlVxgXlOQLOzz5uB+u8xIczQZiH7Wj9T/AnGrzpWThHek5L+8mOrj1+pKFjWkEh3VaA==", "article"=>{"title"=>"This is a new article", "description"=>"This is description for new article"}, "commit"=>"Create Article"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "articles" WHERE "articles"."title" = ? LIMIT ?[0m  [["title", "This is a new article"], ["LIMIT", 1]]
+  [1m[35mSQL (3.0ms)[0m  [1m[32mINSERT INTO "articles" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "This is a new article"], ["description", "This is description for new article"], ["created_at", "2018-03-23 19:38:40.367644"], ["updated_at", "2018-03-23 19:38:40.367644"]]
+  [1m[35m (82.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/articles/4
+Completed 302 Found in 111ms (ActiveRecord: 86.7ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2018-03-23 21:38:40 +0200
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1269ms (Views: 1075.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-23 21:38:44 +0200
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1033ms (Views: 924.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2018-03-23 21:38:47 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (5.0ms)
+  Rendered articles/new.html.erb within layouts/application (115.1ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1210ms (Views: 1071.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/articles" for 127.0.0.1 at 2018-03-23 21:39:38 +0200
+Processing by ArticlesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XO3WuOvVbeJeZwZCtXDLtpdZjJ+16UtJ/3kshLhZvvbooxm2LT0f6RwcqydPTryHL4ZuVM8mcFBTj2ebZgwYqg==", "article"=>{"title"=>"Edited title", "description"=>"Hello testing article"}, "commit"=>"Create Article"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mArticle Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "articles" WHERE "articles"."title" = ? LIMIT ?[0m  [["title", "Edited title"], ["LIMIT", 1]]
+  [1m[35mSQL (2.0ms)[0m  [1m[32mINSERT INTO "articles" ("title", "description", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "Edited title"], ["description", "Hello testing article"], ["created_at", "2018-03-23 19:39:38.543540"], ["updated_at", "2018-03-23 19:39:38.543540"]]
+  [1m[35m (99.2ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/articles/5
+Completed 302 Found in 121ms (ActiveRecord: 101.2ms)
+
+
+Started GET "/articles/5" for 127.0.0.1 at 2018-03-23 21:39:38 +0200
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1265ms (Views: 1140.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-23 21:39:46 +0200
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (7.4ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1063ms (Views: 950.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2018-03-23 21:40:23 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (7.0ms)
+  Rendered articles/new.html.erb within layouts/application (150.9ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1522ms (Views: 1298.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-23 21:40:32 +0200
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (7.5ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1140ms (Views: 1016.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2018-03-23 21:40:35 +0200
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_messages.html.erb (1.5ms)
+Completed 200 OK in 1105ms (Views: 987.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles/4" for 127.0.0.1 at 2018-03-23 21:42:52 +0200
+Processing by ArticlesController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" WHERE "articles"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering articles/show.html.erb within layouts/application
+  Rendered articles/show.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1091ms (Views: 966.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-23 21:42:55 +0200
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1081ms (Views: 971.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:42:57 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1139ms (Views: 986.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-23 21:43:00 +0200
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1218ms (Views: 1107.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-23 21:44:22 +0200
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (9.5ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1168ms (Views: 1032.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-23 21:45:00 +0200
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1162ms (Views: 1025.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2018-03-23 21:45:05 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (5.0ms)
+  Rendered articles/new.html.erb within layouts/application (117.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1177ms (Views: 1067.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2018-03-23 21:45:25 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (5.0ms)
+  Rendered articles/new.html.erb within layouts/application (157.1ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1300ms (Views: 1160.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2018-03-23 21:45:51 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (5.0ms)
+  Rendered articles/new.html.erb within layouts/application (132.1ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1262ms (Views: 1118.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2018-03-23 21:45:56 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (5.0ms)
+  Rendered articles/new.html.erb within layouts/application (117.5ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1198ms (Views: 1079.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:45:58 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.9ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1132ms (Views: 976.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2018-03-23 21:46:01 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (7.0ms)
+  Rendered articles/new.html.erb within layouts/application (145.9ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1511ms (Views: 1398.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/new" for 127.0.0.1 at 2018-03-23 21:49:24 +0200
+Processing by ArticlesController#new as HTML
+  Rendering articles/new.html.erb within layouts/application
+  Rendered articles/_form.html.erb (5.5ms)
+  Rendered articles/new.html.erb within layouts/application (140.2ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1279ms (Views: 1142.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:49:27 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1118ms (Views: 970.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:50:48 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_messages.html.erb (1.5ms)
+Completed 200 OK in 1117ms (Views: 991.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:52:46 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (1.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1162ms (Views: 1020.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:53:38 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 15310ms (Views: 15168.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:54:01 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (5.9ms)
+Completed 200 OK in 1139ms (Views: 1024.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:54:03 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1152ms (Views: 1005.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:59:06 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 14481ms (Views: 14352.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 21:59:51 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+Completed 200 OK in 14087ms (Views: 13958.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 22:03:36 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_navigation.html.erb (2.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 15898ms (Views: 15770.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 22:05:00 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_navigation.html.erb (1.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 15602ms (Views: 15374.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 22:06:28 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 13246ms (Views: 13122.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 22:06:49 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 1265ms (Views: 1155.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 22:07:23 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 15226ms (Views: 15069.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 22:08:22 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (2.5ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+Completed 200 OK in 15731ms (Views: 15577.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 22:10:59 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 1303ms (Views: 1133.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 22:12:30 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 1339ms (Views: 1192.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 22:14:46 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (2.4ms)
+  Rendered layouts/_messages.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 16315ms (Views: 16138.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-03-23 22:16:13 +0200
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 16432ms (Views: 16305.5ms | ActiveRecord: 0.0ms)
+
+

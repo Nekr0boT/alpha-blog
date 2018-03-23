@@ -3,5 +3,6 @@
 <p>Title: <%= @article.title %></p>
 <p>Description: <%= @article.description %></p>
 <hr>
+<%= link_to "Create new article", new_article_path %> |
 <%= link_to "Edit", edit_article_path %> |
 <%= link_to "Back to main", articles_path %>

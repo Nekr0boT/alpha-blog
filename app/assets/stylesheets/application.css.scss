@@ -1,0 +1,56 @@
+@import "bootstrap";
+
+.navbar {
+	background-color: black;
+}
+.btn-xlarge {
+	font-size: 1.7em;
+	background-color: #000;
+}
+.center {
+	text-align: center;
+}
+
+// Navbar
+#logo {
+	float: left;
+	font-size: 1.7em;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	font-weight: bold;
+	&:hover {
+		text-decoration: none;
+	}
+}
+.jumbotron {
+	margin: 40px 0;
+	background-image: asset-url('rails-bg.jpg');
+	background-size: cover;
+	height: 550px;
+	h1 {
+		color: darken(#fff, 30%);
+		margin-bottom: 30px;
+		letter-spacing: -1px;
+		font-weight: bold;
+		font-size: 6em;
+	}
+}
+
+
+// Footer
+.footer {
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;	
+	background-color: #000;
+	small {
+		float: left;
+	}
+	menu {
+		list-style: none;
+		float: right;
+		li {
+			margin-left: 15px;
+		}
+	}
+}
