@@ -2,6 +2,7 @@
 
 .navbar {
 	background-color: black;
+	margin-bottom: 45px;
 }
 .btn-xlarge {
 	font-size: 1.7em;
@@ -24,7 +25,7 @@
 	}
 }
 .jumbotron {
-	margin: 40px 0;
+	margin-top: 45px;
 	background-image: asset-url('rails-bg.jpg');
 	background-size: cover;
 	height: 550px;
@@ -39,10 +40,14 @@
 
 
 // Footer
-.footer {
+footer {
+	margin-top: 45px;
 	padding-top: 5px;
-	border-top: 1px solid #eaeaea;	
-	background-color: #000;
+	border-top: 3px solid #eaeaea;
+	color: #777;
+	a:hover {
+		color: #222;
+	}
 	small {
 		float: left;
 	}
