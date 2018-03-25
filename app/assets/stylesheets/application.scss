@@ -44,9 +44,22 @@
 }
 
 // Articles actions
-.article-actions {
-	border-top: 1px solid #eaeaea;
-	padding-top: 5px;	
+.article {
+	&-actions {
+		border-top: 1px solid #eaeaea;
+		padding-top: 5px;
+	}
+	&-title {
+		font-weight: bold;
+		font-size: 1.5em;
+		a:hover {
+			text-decoration: none;
+		}
+	}
+	&-body {
+		border-top: 1px solid #eaeaea;
+		padding: 15px 0;	
+	}
 }
 .description {
 	margin: 0;
