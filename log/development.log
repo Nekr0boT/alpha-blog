@@ -7258,3 +7258,222 @@ Processing by ArticlesController#create as HTML
 Completed 200 OK in 72749ms (Views: 1401.2ms | ActiveRecord: 2.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-03-29 20:26:21 +0300
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (60.5ms)
+Started GET "/" for 127.0.0.1 at 2018-03-29 20:26:25 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 1066ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+    4:     <title>AlphaBlog</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___531852998_97676736'
+  Rendered layouts/_navigation.html.erb (2.5ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 4227ms (Views: 4082.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/articles/" for 127.0.0.1 at 2018-03-29 20:26:57 +0300
+Processing by ArticlesController#index as HTML
+Started GET "/" for 127.0.0.1 at 2018-03-29 20:27:24 +0300
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1185ms (Views: 1074.2ms | ActiveRecord: 0.0ms)
+
+
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (396.2ms)
+Completed 500 Internal Server Error in 2506ms (ActiveRecord: 6.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+     9: 				</div>
+    10: 				<div class="article-body">
+    11: 					<%= truncate(article.description, length: 100) %>
+    12: 					<small>Created by: <%= article.user.username %>,
+    13: 													   <%= time_ago_in_words(article.created_at) %> ago,
+    14: 								 last updated:<%= time_ago_in_words(article.updated_at) %>
+    15: 					</small>
+  
+app/views/articles/index.html.erb:12:in `block in _app_views_articles_index_html_erb___824746087_69233244'
+app/views/articles/index.html.erb:3:in `_app_views_articles_index_html_erb___824746087_69233244'
+Started GET "/articles" for 127.0.0.1 at 2018-03-29 20:27:58 +0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (161.1ms)
+Completed 500 Internal Server Error in 717ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+     9: 				</div>
+    10: 				<div class="article-body">
+    11: 					<%= truncate(article.description, length: 100) %>
+    12: 					<small>Created by: <%= article.user.username %>,
+    13: 													   <%= time_ago_in_words(article.created_at) %> ago,
+    14: 								 last updated:<%= time_ago_in_words(article.updated_at) %>
+    15: 					</small>
+  
+app/views/articles/index.html.erb:12:in `block in _app_views_articles_index_html_erb___824746087_101663916'
+app/views/articles/index.html.erb:3:in `_app_views_articles_index_html_erb___824746087_101663916'
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT  "articles".* FROM "articles" ORDER BY "articles"."id" DESC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Started GET "/articles" for 127.0.0.1 at 2018-03-29 20:29:54 +0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (135.6ms)
+Completed 500 Internal Server Error in 604ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+     9: 				</div>
+    10: 				<div class="article-body">
+    11: 					<%= truncate(article.description, length: 100) %>
+    12: 					<small>Created by: <%= article.user.username if article.user.username != nil %>,
+    13: 													   <%= time_ago_in_words(article.created_at) %> ago,
+    14: 								 last updated:<%= time_ago_in_words(article.updated_at) %>
+    15: 					</small>
+  
+app/views/articles/index.html.erb:12:in `block in _app_views_articles_index_html_erb___824746087_92748696'
+app/views/articles/index.html.erb:3:in `_app_views_articles_index_html_erb___824746087_92748696'
+Started GET "/articles" for 127.0.0.1 at 2018-03-29 20:30:29 +0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (142.1ms)
+Completed 500 Internal Server Error in 651ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+     9: 				</div>
+    10: 				<div class="article-body">
+    11: 					<%= truncate(article.description, length: 100) %>
+    12: 					<small>Created by: <%= article.user.username if article.user.username.nil? %>,
+    13: 													   <%= time_ago_in_words(article.created_at) %> ago,
+    14: 								 last updated:<%= time_ago_in_words(article.updated_at) %>
+    15: 					</small>
+  
+app/views/articles/index.html.erb:12:in `block in _app_views_articles_index_html_erb___824746087_112511940'
+app/views/articles/index.html.erb:3:in `_app_views_articles_index_html_erb___824746087_112511940'
+Started GET "/articles" for 127.0.0.1 at 2018-03-29 20:33:43 +0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  Rendered articles/index.html.erb within layouts/application (144.2ms)
+Completed 500 Internal Server Error in 801ms (ActiveRecord: 1.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+     9: 				</div>
+    10: 				<div class="article-body">
+    11: 					<%= truncate(article.description, length: 100) %>
+    12: 					<small>Created by: <%= article.user.username if article.user.username %>,
+    13: 													   <%= time_ago_in_words(article.created_at) %> ago,
+    14: 								 last updated:<%= time_ago_in_words(article.updated_at) %>
+    15: 					</small>
+  
+app/views/articles/index.html.erb:12:in `block in _app_views_articles_index_html_erb___824746087_44690412'
+app/views/articles/index.html.erb:3:in `_app_views_articles_index_html_erb___824746087_44690412'
+Started GET "/articles" for 127.0.0.1 at 2018-03-29 20:34:45 +0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered articles/index.html.erb within layouts/application (241.4ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1898ms (Views: 1744.2ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-29 20:36:06 +0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered articles/index.html.erb within layouts/application (35.1ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 25080ms (Views: 24925.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-29 20:49:37 +0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered articles/index.html.erb within layouts/application (31.6ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 14805ms (Views: 14620.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-29 20:51:56 +0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (1.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered articles/index.html.erb within layouts/application (38.6ms)
+  Rendered layouts/_navigation.html.erb (3.5ms)
+  Rendered layouts/_messages.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (1.5ms)
+Completed 200 OK in 1609ms (Views: 1430.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-29 20:52:24 +0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.5ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered articles/index.html.erb within layouts/application (33.5ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1269ms (Views: 1142.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/articles" for 127.0.0.1 at 2018-03-29 20:53:20 +0300
+Processing by ArticlesController#index as HTML
+  Rendering articles/index.html.erb within layouts/application
+  [1m[36mArticle Load (0.0ms)[0m  [1m[34mSELECT "articles".* FROM "articles"[0m
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered articles/index.html.erb within layouts/application (28.0ms)
+  Rendered layouts/_navigation.html.erb (2.0ms)
+  Rendered layouts/_messages.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1188ms (Views: 1067.9ms | ActiveRecord: 1.5ms)
+
+
