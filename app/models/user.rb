@@ -11,4 +11,6 @@ class User < ActiveRecord::Base
 
 	validates :email, format: { with: VALID_EMAIL_REGEX },
 						length: { maximum: 105 }
+
+	has_secure_password
 end

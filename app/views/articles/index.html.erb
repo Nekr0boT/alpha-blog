@@ -12,15 +12,16 @@
 					<div class="article-meta-details">
 						<small>Created by: <%= article.user.username + "," if article.user %>
 														   <%= time_ago_in_words(article.created_at) %> ago,
-									 last updated: <%= time_ago_in_words(article.updated_at) %>
+								 last updated: <%= time_ago_in_words(article.updated_at) %>
 						</small>
 					</div>
 				</div>
 				<div class="article-actions">
 					<%= link_to "Edit", edit_article_path(article), class: "btn btn-primary btn-sm" %>
-					<%= link_to "Delete this article", article_path(article), 
-																			 			 class: "btn btn-danger btn-sm",
-																			 			 method: :delete, data: {confirm: "Are you sure?"} %>
+					<%= link_to "Delete this article",
+											article_path(article), 
+											class: "btn btn-danger btn-sm",
+											method: :delete, data: {confirm: "Are you sure?"} %>
 				</div>
 			</div>
 		</div>
