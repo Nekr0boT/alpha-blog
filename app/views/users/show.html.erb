@@ -6,6 +6,9 @@
 	</div>
 </div>
 <h4 class="center"><%= @user.username %>'s articles</h4>
+<div class="pagin">
+	<%= will_paginate @user_articles %>
+</div>
 
 <% if @user.articles.any? %>
 
@@ -25,3 +28,7 @@
 	</div>
 
 <% end %>
+
+<div class="pagin">
+	<%= will_paginate @user_articles %>
+</div>
