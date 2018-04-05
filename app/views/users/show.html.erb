@@ -1,0 +1,27 @@
+<h1 class="center">Welcome to <%= @user.username %>'s</h1>
+
+<div class="row">
+	<div class="col-md-4 offset-md-4 center">
+		<%= gravatar_for @user, size: 150 %>
+	</div>
+</div>
+<h4 class="center"><%= @user.username %>'s articles</h4>
+
+<% if @user.articles.any? %>
+
+	<%= render 'articles/article', obj: @user.articles %>
+
+<% else %>
+
+	<div class="row">
+		<div class="col-10 offset-1 my-3">
+			<div class="card card-body bg-danger">
+				<h1 class="center">You don't have any articles!</h1>
+				<hr>
+				<%= link_to "Create new article", new_article_path, class: "btn btn-info btn-lg" %>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<% end %>
