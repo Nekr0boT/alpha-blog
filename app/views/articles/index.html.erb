@@ -1,8 +1,14 @@
 <h1 class="center">Listing all articles</h1>
-<div class="pagin">
-	<%= will_paginate %>
+<div class="row">
+	<div class="col-4 offset-5">
+		<%= will_paginate %>
+	</div>
 </div>
+
 <%= render 'article', obj: @articles %>
-<div class="pagin">
-	<%= will_paginate %>
+
+<div class="row">
+	<div class="col-4 offset-5">
+		<%= will_paginate %>
+	</div>
 </div>
