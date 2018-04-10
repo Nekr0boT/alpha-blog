@@ -14210,3 +14210,62 @@ Completed 200 OK in 1357ms (Views: 1174.3ms | ActiveRecord: 4.0ms)
 
 =======
 >>>>>>> 3a8cb5e3eb652551d6cc825625c7a5cf36209e53
+Started GET "/" for 127.0.0.1 at 2018-04-10 18:21:59 +0300
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (5.5ms)
+Started GET "/" for 127.0.0.1 at 2018-04-10 18:22:02 +0300
+  Rendered layouts/_navigation.html.erb (7.0ms)
+Processing by PagesController#home as HTML
+  Rendered layouts/_messages.html.erb (2.5ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 2409ms (Views: 2321.5ms | ActiveRecord: 0.0ms)
+
+
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (11.0ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 27972ms (Views: 27900.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2018-04-10 18:22:37 +0300
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered shared/_errors.html.erb (2.0ms)
+  Rendered users/_form.html.erb (147.0ms)
+  Rendered users/new.html.erb within layouts/application (219.1ms)
+  Rendered layouts/_navigation.html.erb (3.0ms)
+  Rendered layouts/_messages.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1118ms (Views: 1006.7ms | ActiveRecord: 4.0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2018-04-10 18:22:55 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4cBEHkdOmgd0i+MqZQShKL2nXYTKAbZmtY6AKS52JjnYN4AkjMcR9YerYnyBeWy6/rfV5Z1tllZs6dpKVE+J5w==", "user"=>{"username"=>"tset", "email"=>"tset@example.com", "password"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."username") = LOWER(?) LIMIT ?[0m  [["username", "tset"], ["LIMIT", 1]]
+  [1m[36mUser Exists (1.0ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER(?) LIMIT ?[0m  [["email", "tset@example.com"], ["LIMIT", 1]]
+  [1m[35mSQL (3.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "created_at", "updated_at", "password_digest") VALUES (?, ?, ?, ?, ?)[0m  [["username", "tset"], ["email", "tset@example.com"], ["created_at", "2018-04-10 15:22:56.206530"], ["updated_at", "2018-04-10 15:22:56.206530"], ["password_digest", "$2a$10$LeqtiJHaRSGloKyvXRHpvOqqC28zpk8A54LINoptIi0bLGs4PBg/G"]]
+  [1m[35m (85.3ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/users/10
+Completed 302 Found in 231ms (ActiveRecord: 91.3ms)
+
+
+Started GET "/users/10" for 127.0.0.1 at 2018-04-10 18:22:56 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering users/show.html.erb within layouts/application
+  [1m[36mArticle Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "articles" WHERE "articles"."user_id" = ? LIMIT ?[0m  [["user_id", 10], ["LIMIT", 1]]
+  Rendered users/show.html.erb within layouts/application (10.5ms)
+  [1m[36mUser Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendered layouts/_navigation.html.erb (8.0ms)
+  Rendered layouts/_messages.html.erb (1.5ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1006ms (Views: 785.8ms | ActiveRecord: 3.5ms)
+
+
